@@ -1,0 +1,31 @@
+***Web3.py simple storage***
+git clone https://github.com/PatrickAlphaC/web3_py_simple_storage
+cd web3_py_simple_storage
+
+pip install -r requirements.txt
+
+pip install dotnet
+
+change address and private key as per ganache...
+
+
+***Brownie code***
+git clone https://github.com/PatrickAlphaC/brownie_simple_storage
+cd brownie_simple_storage
+
+pip install eth-brownie
+
+npm install -g ganache-cli
+
+brownie accounts new 0
+--enter private key
+--enter metamask password
+
+brownie test
+
+brownie run scripts/deploy.py
+
+
+
+brownie console
+brownie init  --For new project
